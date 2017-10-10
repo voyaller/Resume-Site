@@ -1,0 +1,342 @@
+﻿body {
+	margin:0;
+   	padding:0;
+   	height:100%;
+}
+
+/* Navigation menu - Start */
+
+#nav {
+	position: fixed;
+	background-color: #000000;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	height: 80px;
+	opacity: 0.6;
+	z-index: 3;
+}
+
+#logo {
+    position: fixed;
+	top: 3px;
+	left: 0%;
+	right: 0%;
+	text-align: left;
+}
+
+#buttons ul {
+    position: fixed;
+	left: 50%;
+	right: 0%;
+	list-style-type: none;
+    margin: right;
+    padding: 0;
+    overflow: hidden;
+	opacity: 0.9;
+}
+
+#buttons li {
+    float: right;
+}
+
+#buttons li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#buttons li a:hover {
+    background-color: #800000;
+}
+
+/* Navigation menu - End */
+
+/* "Welcome" Background Image - Start */
+
+#img1 {
+	background-image: url("../Paralax Images/image1.jpg");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+/* "Welcome" Background Image - End */
+
+/* "Welcome" Underline Animation - Start */
+
+.underline {
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	position: absolute;
+	font-size: 500%;
+	color: #fff;
+	left: 26%;
+	top: 30%;
+  	padding-bottom: 4px;
+  	margin-bottom: 20px;
+  	opacity: 0.9;
+  	z-index: 2;
+}
+
+.underline:after {
+  	position: absolute;
+  	content: '';
+  	bottom: -2px;
+  	left: 0px;
+  	height: 5px;
+  	width: %;
+  	top: 62%;
+  	background-color: #fff;
+  	animation: underline 2s ease-in-out; /* remove infinite if you want only once */
+}
+
+@keyframes underline {
+  to {
+    width: 150%;
+    left: -50%;
+    opacity: 0.3;
+  }
+}
+
+/* "Welcome" Underline Animation - End */
+
+/* "Education" Section - Start */
+
+#Education { /* First Div Section */
+	position: absolute;
+	background-image: url("../Section Photos/backgrounds.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	left: 0%;
+	width: 100%;
+	height: 600px;
+	top: 100%;
+}
+
+#Education img {
+	position: absolute;
+	left: 20%;
+	top: 20%;
+
+}
+
+#headeredu {
+	position: absolute;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 60;
+	left: 40%;
+	top: 15%;
+}
+
+#paredu {
+	position: absolute;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 25;
+	left: 40%;
+	top: 50%;
+}
+
+/* "Education" Section - Stop */
+
+
+/* "Experience" Section - Start */
+
+#parallaximg1 { /* First Paralax Image (Wood) */
+	background-image: url("../Paralax Images/woodpar.jpg");
+	height: 300px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#Experience { /* First Div Section */
+	position: absolute;
+	background-image: url("../Section Photos/backgrounds.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	top: 155%;
+	left: 0%;
+	width: 100%;
+	height: 900px;
+	z-index: 1;
+
+}
+
+#Experience img {
+	position: absolute;
+	left: 20%;
+	top: 45%;
+
+}
+
+#headerexper {
+	position: absolute;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 60;
+	left: 40%;
+	top: 41%;
+}
+
+#parexper {
+	position: absolute;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 25;
+	left: 40%;
+	top: 60%;
+}
+
+/* "Experience" Section - Stop */
+
+/* "Contact" Section - Start */
+
+#parallaximg2 {  /* Second Paralax Image (YV) */
+	background-image: url("../Paralax Images/img3.jpg");
+	height: 300px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#Contact { /* First Div Section */
+	position: absolute;
+	background-image: url("../Section Photos/backgrounds.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	top: 237%;
+	left: 0%;
+	width: 100%;
+	height: 900px;
+	z-index: 1;
+}
+
+.LI-profile-badge { /*Linkedin Profile Badge*/
+	position: absolute;
+	left: 20%;
+	top: 45%;
+
+}
+
+/* Old Code - Start
+
+#headercont {
+	position: absolute;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 60;
+	left: 40%;
+	top: 41%;
+}
+
+#parcont {
+	position: relative;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 25;
+	left: 40%;
+	top: 25%;
+}
+
+Old Code - End */
+
+#Contact-container {
+    position: absolute;
+	left: 40%;
+	top: 41%;
+	margin: 0;
+    padding: 0;
+    width: auto;
+}
+#infobox {
+    width: 600px;
+    background: #424242;
+    padding: 10px 5px 5px 5px;
+    margin:10px;
+    color: #fff;
+    font-size: 90%;
+	
+}
+#infobox a {
+	color: #fff;
+}
+
+#infobox h3 {
+	position: relative;
+    left: -20px;
+	background: #B0B0B0;
+    width: 630px;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0;
+    font-size: 160%;
+    text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#Contact-container li {
+	position: relative;
+	font-size: 25;
+	padding: 25px 30px;
+	display: block;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#IconEmail {
+    width: 30px;
+    height: 30px;
+   	float: left;
+}
+
+#IconMessenger {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+/* "Contact" Section - Stop */
+
+/* "Footer" Section - Start */
+
+#footer {
+  	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 6rem;
+  	top: 100%;
+  	background-color: #353535;
+  	font-size: 50;
+	color: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#FooterSeperator {
+	position: absolute;
+	height: 10px;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dbdbdb, #f2f2f2 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dbdbdb, #f2f2f2 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dbdbdb, #f2f2f2 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dbdbdb, #f2f2f2 ); /* Standard syntax */
+}
+
+/* "Footer" Section - Stop */

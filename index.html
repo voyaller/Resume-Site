@@ -1,74 +1,134 @@
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="text/javascript" src="JavaScript/javascript.js">
-		<link rel="icon" type="image/png" href="Logos/yv.ico">
-		<meta property="og:url" content="http://yannisvoyatzis.com"/>
-		<meta property="og:site_name" content="Yannis Voyatzis"/>
-		<meta property="og:title" content="Personal Resume"/>
-		<meta property="og:description" content="I'm an Information Technology Specialist. Welcome to my personal CV!"/>
-		<meta property="og:image" content="https://i.imgur.com/NQB5G85.jpg">
-		<meta property="og:type" content="website"/>
-		<title>Yannis Voyatzis</title>
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Global Site Tag (gtag.js) - Google Analytics Start -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107917393-1"></script>
-			<script>
-  				window.dataLayer = window.dataLayer || [];
-  				function gtag(){dataLayer.push(arguments);}
-  				gtag('js', new Date());
-  				gtag('config', 'UA-107917393-1');
-			</script>
-		<!-- Global Site Tag (gtag.js) - Google Analytics End -->
-	</head>
-	<body>
-		<header>
-			<div id="nav">
-				<div id="logo">
-					<a href="index.html"><img src="Logos/vylogo.png" width="150" height="75" border="0"></a>
-				</div>>
-				<div id="buttons">
-					<ul>
-						<li><a href="#Experience" rel="" id="ExperienceLink" class="ExperienceLink">Experience</a></li>
-						<li><a href="#Education" rel="" id="EducationLink" class="EducationLink">Education</a></li>
-						<li><li><a href="#Contact" rel="" id="ContactLink" class="ContactLink">Contact</a></li></li>
-					</ul>
-				</div>
-			</div>
-		</header>
-		<div id="img1"></div>
-		<div class='underline'><p>Let's build something together!</p></div>
-		<div id="Education">
-			<img src="Section Photos/education.png" width="300" height="450" border="0"></a>
-				<div id="headeredu"><p>Education</p></div>
-				<div id="paredu"><p>2013: Graduated Lyceum on his technological field<br>
-									2013: Started his studies on Information Technology on a Vocational Training Institue</p></div>
-		</div>
-		<div id="Experience">
-			<div id="parallaximg1"></div>
-			<img src="Section Photos/experience.jpg" width="300" height="450" border="0"></a>
-				<div id="headerexper"><p>Experience</p></div>
-				<div id="parexper"><p>2017: Started his Internship on Information Technology at Sioufas & Associates - Law Firm<br>
-									2017: Continued his Internship at the retail store PC Wizard</p></div>
-		</div>
-		<div id="Contact">
-			<div id="parallaximg2"></div>
-			<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="ioannisvogiatzis">
-			<a class="LI-simple-link" href='https://gr.linkedin.com/in/ioannisvogiatzis?trk=profile-badge'>Yannis Voyatzis</a>
-			</div>
-			<div id="Contact-container"> 
-				<div id="triangle-l"></div> 
-					<div id="triangle-r"></div> 
-						<div id="infobox"> <h3><span>Contact Me:</span></h3>
-							<ul>
-								<li><img src="Logos/email.png" id="IconEmail"></img><a href="mailto:Ioannis.D.Vogiatzis@gmail.com">Ioannis.D.Vogiatzis@gmail.com</a></li>
-								<li><img src="Logos/Messenger.png" id="IconMessenger"></img>m.me/yannis.voyatzis</li>
-							</ul>
-			</div>
-		</div>
-		<div id="footer">Yannis Voyatzis<div id="FooterSeperator"></div></div>
-	</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="Logos/yv.ico">
+    <meta property="og:url" content="http://yannisvoyatzis.com"/>
+    <meta property="og:site_name" content="Yannis Voyatzis"/>
+    <meta property="og:title" content="Aiming for results"/>
+    <meta property="og:description" content="I'm an Information Technology Specialist. I'm here to help."/>
+    <meta property="og:image" content="https://i.imgur.com/NQB5G85.jpg">
+    <meta property="og:type" content="website"/>
+    <title>Yannis Voyatzis</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Yannis Voyatzis</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Download my CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Aiming for results</h1>
+              <p class="intro-text">Knowlege, Technology and Co-Operation.
+                <br>Find out more below.</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Me</h2>
+            <p>In 2013 after i finished High School on my 18th years l've started my studies in <a href="http://iek-n-ionias.att.sch.gr/iek/">Vocational Training Institue of Nea Ionia</a>. In short words, i learned to code, building computers, magaging networks and creating Web Sites.</p>
+            <p>After my graduation i started my Internship on the I.T. Department of 
+              <a href="http://www.sioufaslaw.gr/">Sioufas & Associates Law Firm</a> for 5 months. I finished my last month at 
+              <a href="https://www.flexit.gr/">FlexIT</a>.</p>
+            <p>After that 6 month period, i'm fully capable of managing Windows Servers, Monitoring Computers from distance, repairing laptops, creating static and dynamic websites, along with many other great technologies and techniques mentioned on my Curiculum Vitae below.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Curriculum Vitae</h2>
+          <p>For contact information, experience with technologies and detailed educational preview.</p>
+          <a href="" class="btn btn-default btn-lg">Download in PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact me</h2>
+            <p>For business business inquiries only.<br>Soliciting and/or advertising of any kind will be ignored.</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="mailto:Ioannis.D.Vogiatzis@gmail.com" class="btn btn-default btn-lg">
+                  <span class="network-name">Send me an e-Mail</span>
+                    </a>
+                  </a>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Yannis Voyatzis 2017</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
 </html>
-
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
